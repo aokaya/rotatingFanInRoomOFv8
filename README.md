@@ -5,5 +5,7 @@ This is not my project and i'm very begginer on openfoam, i just have modified s
 
 
 If you have troubles with mpi, run : 
-  mpirun --use-hwthread-cpus -np 4 pimpleFoam -parallel > log.pimpleFoam & \\
+  mpirun --use-hwthread-cpus -np 4 pimpleFoam -parallel > log.pimpleFoam &
+  
+  
   Explanation https://stackoverflow.com/questions/48835603/unable-to-use-all-cores-with-mpirun
