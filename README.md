@@ -13,6 +13,10 @@ If you have troubles with mpi, run :
   
   
   Explanation https://stackoverflow.com/questions/48835603/unable-to-use-all-cores-with-mpirun
+  
+  
+  when mpirun ends, to gather all information run: reconstructPar.
+  Now run paraFOAM And its done.
 
 
 files changed:
