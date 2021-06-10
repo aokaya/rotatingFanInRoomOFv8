@@ -10,7 +10,7 @@ This is not my project and i'm very begginer on openfoam, i just have modified s
   1 - The command surfaceFeatureExtract in openfoam v8 is changed to surfaceFeatures
 
 
-  2 - If you have troubles with mpi, run : 
+  2 - If you have troubles with the mpi command used in the tutorial, run : 
   mpirun --use-hwthread-cpus -np 4 pimpleFoam -parallel > log.pimpleFoam &
   
   
