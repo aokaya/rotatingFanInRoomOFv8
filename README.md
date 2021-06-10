@@ -29,7 +29,7 @@ files changed:
   /constant/dynamicMeshDict - line 20
   
  	
-  /system/decomposeParDict. source https://cfd.direct/openfoam/user-guide/v8-running-applications-parallel/#dx12-86091
+  /system/decomposeParDict - lines 30-34. source https://cfd.direct/openfoam/user-guide/v8-running-applications-parallel/#dx12-86091
   
   
   /system/surfaceFeatureExtract renamed to /system/surfaceFeatures and added surfaces dictionaries to the file.
