@@ -7,17 +7,17 @@ This is not my project and i'm very begginer on openfoam, i just have modified s
 !IMPORTANT! :
 -----------------------------------------------------------------------
 
-  the command surfaceFeatureExtract in openfoam v8 is changed to surfaceFeatures
+  1 - The command surfaceFeatureExtract in openfoam v8 is changed to surfaceFeatures
 
 
-If you have troubles with mpi, run : 
+  2 - If you have troubles with mpi, run : 
   mpirun --use-hwthread-cpus -np 4 pimpleFoam -parallel > log.pimpleFoam &
   
   
   Explanation https://stackoverflow.com/questions/48835603/unable-to-use-all-cores-with-mpirun
   
   
-  when mpirun ends, to gather all information run: reconstructPar.
+  3 - when mpirun ends, to gather all information run: reconstructPar.
   Now run paraFOAM And its done.
 
 -------------------------------------------------------------------------------------
