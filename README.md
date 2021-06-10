@@ -5,7 +5,7 @@ This is not my project and i'm very begginer on openfoam, i just have modified s
 
 
 !IMPORTANT!
-  the command SurfaceFeatureExtract in openfoam v8 is changed to SurfaceFeatures
+  the command surfaceFeatureExtract in openfoam v8 is changed to surfaceFeatures
 
 
 If you have troubles with mpi, run : 
