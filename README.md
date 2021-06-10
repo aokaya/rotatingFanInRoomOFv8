@@ -5,7 +5,9 @@ This is not my project and i'm very begginer on openfoam, i just have modified s
 
 
 files changed:
-  decomposeParDict. source https://cfd.direct/openfoam/user-guide/v8-running-applications-parallel/#dx12-86091
+  /constant/dynamicMeshDict
+  /system/decomposeParDict. source https://cfd.direct/openfoam/user-guide/v8-running-applications-parallel/#dx12-86091
+  /system/surfaceFeatureExtract renamed to /system/surfaceFeatures and added surfaces dictionaries to the file.
 
 
 If you have troubles with mpi, run : 
