@@ -14,11 +14,6 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//superficies
-//{
-//	surfaces	(ami.stl door.stl fan.stl outrlet.stl room.stl desk.stl);
-//}
-
 AMI.stl
 {
 	surfaces	("AMI.stl");
