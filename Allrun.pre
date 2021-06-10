@@ -4,7 +4,7 @@ cd "${0%/*}" || exit                                # Run from this directory
 #------------------------------------------------------------------------------
 
 # - meshing
-runApplication surfaceFeatureExtract
+runApplication surfaceFeatures
 runApplication blockMesh
 runApplication snappyHexMesh -overwrite
 
